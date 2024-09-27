@@ -131,16 +131,12 @@ sns.catplot(data=df,col='Survived',x='Sex',hue='Pclass',kind='count')
 ```
 ![Screenshot 2024-09-27 155425](https://github.com/user-attachments/assets/900df029-316e-4c6b-9c74-93b7b12431fb)
 
-
-
-
 ```
 import seaborn as sns
 corr=df.corr()
 sns.heatmap(corr,annot=True)
 ```
-
-
+![Screenshot 2024-09-27 155945](https://github.com/user-attachments/assets/d20f4b12-912b-44be-8318-eb2097291c7a)
 
 ```
 sns.pairplot(df)
